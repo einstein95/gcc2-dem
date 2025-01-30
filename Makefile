@@ -1,7 +1,7 @@
 CC = gcc
 CCFLAGS = -std=gnu89 -O2
 
-OBJS = main.o xmalloc.o fatal.o cplus-dem.o
+OBJS = main.o xmalloc.o cplus-dem.o
 
 .PHONY: all clean
 
